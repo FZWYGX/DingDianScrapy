@@ -1,21 +1,18 @@
-在MongoDB的bin目录下，输入代码
-```
-mongoexport -h ip和端口 -d 库名 -c 表名 -f 字段名 --type=csv -o ./文件名.csv
-```
-可以将存储在MongoDB中的数据输出为csv文件！
+顶点小说网信息爬取
 
-链家爬虫一共有三张表，分别是...
+结果：csv文件过大，这里展示MongoDB的.bson文件。
 
-结果：...
+百度云盘：
 
-百度云盘：...
+项目启动文件：start.py
 
-启动文件：start.py
+Master端：
+redis-cli > lpush 23us:start_urls https://www.23us.so/
 
 --------------------------------------------------------------------------------------------
 
 ProxyPool 来源于静觅大神
 
-删除了从公开网站收集ip的代码，我的ip代理购买于讯代理，通过修改crawler.py和setting.py文件，获取讯代理的api
+删除了从公开网站收集ip的代码，我的ip代理购买于讯代理，通过修改crawler.py和setting.py文件，实现ip代理。
 
-启动文件：start.py
+如果要使用，请先修改好迅代理的接口，crawler.py和setting文件。

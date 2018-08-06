@@ -9,6 +9,9 @@ import scrapy
 
 
 class ChapterItem(scrapy.Item):
+    """
+    这张表存储（小说－章节）　
+    """
 
     # 小说章节url
     url = scrapy.Field()
@@ -25,6 +28,9 @@ class ChapterItem(scrapy.Item):
 
 
 class ContentItem(scrapy.Item):
+    """
+    这张表存储（章节－内容）
+    """
 
     # 每小说具体一章的url
     url = scrapy.Field()

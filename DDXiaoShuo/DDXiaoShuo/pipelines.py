@@ -11,7 +11,6 @@ from traceback import format_exc
 from .items import ChapterItem, ContentItem
 
 
-
 class DdxiaoshuoPipeline(object):
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
