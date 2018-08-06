@@ -2,13 +2,15 @@
 
 结果：csv文件过大，这里展示MongoDB的.bson文件。
 
-百度云盘：
+百度云盘：链接：https://pan.baidu.com/s/1H0QWo4CbBUPMDziYYrI7ZQ 密码：uhkg
 
 项目启动文件：start.py
 
+```
 Master端：
 
 redis-cli > lpush 23us:start_urls https://www.23us.so/
+```
 
 --------------------------------------------------------------------------------------------
 
